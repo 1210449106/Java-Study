@@ -1,4 +1,4 @@
-package com.strick.strick04;
+package com.strick.Strick05;
 
 /**
  * @Classname : test
