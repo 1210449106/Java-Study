@@ -1,0 +1,20 @@
+package com.Demo02;
+
+/**
+ * @Classname : Consumer
+ * @Description :
+ * @Date : 2022/3/10 6:36 PM
+ * @Created by wangruiyang
+ */
+public class Consumer implements Runnable{
+    private Product p;
+    @Override
+    public void run() {//消费者线程
+            for (int i = 1; i < 10; i++) {//消费次数
+                System.out.println("消费者消费了"+p.getBrand()+"----"+p.getName());
+            }
+        }
+    public Consumer(Product p) {
+        this.p = p;
+    }
+}
