@@ -13,6 +13,7 @@ import java.util.Scanner;
 public class TestClient {//客户端
     //这是一个main方法，是程序的入口
     public static void main(String[] args){
+        System.out.println("客户端已启动");
 //        1.创建套接字:必须指定服务器ip和端口号
         Socket s = null;
         OutputStream os = null;
@@ -20,7 +21,7 @@ public class TestClient {//客户端
         InputStream is =null;
         DataInputStream dis = null;
         try {
-            s = new Socket("192.168.68.35",8888);
+            s = new Socket("192.168.45.40",8888);
             //        录入用户名密码
             Scanner sc = new Scanner(System.in);
             System.out.println("请输入账号");
