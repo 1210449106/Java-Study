@@ -4,6 +4,9 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Array/Array.iml" filepath="$PROJECT_DIR$/Array/Array.iml" />
       <module fileurl="file://$PROJECT_DIR$/IO/IO.iml" filepath="$PROJECT_DIR$/IO/IO.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Thread/Test.iml" filepath="$PROJECT_DIR$/Thread/Test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/TestNetWork/TestAnnotation.iml" filepath="$PROJECT_DIR$/TestNetWork/TestAnnotation.iml" />
+      <module fileurl="file://$PROJECT_DIR$/TestNetWork/TestNetAnnotation.iml" filepath="$PROJECT_DIR$/TestNetWork/TestNetAnnotation.iml" />
       <module fileurl="file://$PROJECT_DIR$/TestNetWork/TestNetWork.iml" filepath="$PROJECT_DIR$/TestNetWork/TestNetWork.iml" />
       <module fileurl="file://$PROJECT_DIR$/Thread/Thread.iml" filepath="$PROJECT_DIR$/Thread/Thread.iml" />
       <module fileurl="file://$PROJECT_DIR$/study.iml" filepath="$PROJECT_DIR$/study.iml" />
