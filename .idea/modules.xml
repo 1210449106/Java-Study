@@ -5,8 +5,10 @@
       <module fileurl="file://$PROJECT_DIR$/Annotation/Annotation.iml" filepath="$PROJECT_DIR$/Annotation/Annotation.iml" />
       <module fileurl="file://$PROJECT_DIR$/Array/Array.iml" filepath="$PROJECT_DIR$/Array/Array.iml" />
       <module fileurl="file://$PROJECT_DIR$/IO/IO.iml" filepath="$PROJECT_DIR$/IO/IO.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ReflectPro/ReflectPro.iml" filepath="$PROJECT_DIR$/ReflectPro/ReflectPro.iml" />
       <module fileurl="file://$PROJECT_DIR$/Thread/Test.iml" filepath="$PROJECT_DIR$/Thread/Test.iml" />
       <module fileurl="file://$PROJECT_DIR$/TestNetWork/TestAnnotation.iml" filepath="$PROJECT_DIR$/TestNetWork/TestAnnotation.iml" />
+      <module fileurl="file://$PROJECT_DIR$/TestEnum/TestEnum.iml" filepath="$PROJECT_DIR$/TestEnum/TestEnum.iml" />
       <module fileurl="file://$PROJECT_DIR$/TestNetWork/TestNetAnnotation.iml" filepath="$PROJECT_DIR$/TestNetWork/TestNetAnnotation.iml" />
       <module fileurl="file://$PROJECT_DIR$/TestNetWork/TestNetWork.iml" filepath="$PROJECT_DIR$/TestNetWork/TestNetWork.iml" />
       <module fileurl="file://$PROJECT_DIR$/Thread/Thread.iml" filepath="$PROJECT_DIR$/Thread/Thread.iml" />
