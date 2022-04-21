@@ -1,5 +1,10 @@
 package com.wry.test02;
 
+import java.io.FileNotFoundException;
+import java.io.FileReader;
+import java.io.IOException;
+import java.util.Properties;
+
 /**
  * @Classname : Demo
  * @Description :
@@ -8,7 +13,19 @@ package com.wry.test02;
  */
 public class Demo {
     //这是一个main方法，是程序的入口
-    public static void main(String[] args) {
+    public static void main(String[] args) throws IOException {
+        //通过io流读取配置文件
+        FileReader reader = new FileReader("../classinfo.properties");
+        //创建类属性对象Map
+        Properties pro = new Properties();//key value都是String
+        //加载
+        pro.load(reader);
+        //关闭流
+        reader.close();
+        //通过Key获取value
+        String className = pro.getProperty("className");
+
+        System.out.println(className);
         Class c1 = Person.class;
         Class c2 = Comparable.class;
         Class c3 = Override.class;
